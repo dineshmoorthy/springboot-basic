@@ -1,0 +1,140 @@
+<mongoChangeLog>
+    <changeSet changeId="ChangeSet-16" author="pctl">
+        <script>
+            db.airtelplan.insert({
+
+            "sponsorId": "spons001",
+            "name": "AIRTEL",
+            "descriptions": "Airtel Broadband connection details",
+            "details": [
+            {
+            "nightcall" : "120",
+            "data" : "7GB",
+            "atoa" : "2psec",
+            "othermobiles" : "10psec"
+            },
+            {
+            "nightcall" : "420",
+            "data" : "7GB",
+            "atoa" : "21psec",
+            "othermobiles" : "8psec"
+            },
+            {
+            "nightcall" : "520",
+            "data" : "7GB",
+            "atoa" : "3psec",
+            "othermobiles" : "4psec"
+            },
+            {
+            "nightcall" : "7120",
+            "data" : "7GB",
+            "atoa" : "5psec",
+            "othermobiles" : "5psec"
+            }
+            ],
+            "productVariants": [
+            {
+            "variantId": "basicplan",
+            "sponsorId": "spons001",
+            "name": "BASIC PLAN",
+            "discriptionHtml": "Software-defined wide area networking (AIRTEL) is the next evolution of private networking",
+            "displayImage" : "",
+            "sku": "BASIC PLAN",
+            "displayPosition": 1,
+            "servicePlan": "basic",
+            "serviceVendor": "versa",
+            "serviceTransport": "customer",
+            "securityPkg": "1",
+            "standardCpe": "1",
+            "haServicePlan": "",
+            "sprovider": "",
+            "sArealocation": "",
+            "haSecurityPkg": "",
+            "haCpe": "0",
+            "tier1Support": "1"
+            },
+            {
+            "variantId": "hiendplan",
+            "sponsorId": "spons001",
+            "discriptionHtml": "Software-defined wide area networking (AIRTEL) is the next evolution of private networking",
+            "displayImage" : "",
+            "name": "HI END PLAN",
+            "sku": "HI END PLAN",
+            "displayPosition": 1,
+            "servicePlan": "basic",
+            "serviceVendor": "versa",
+            "serviceTransport": "customer",
+            "securityPkg": "1",
+            "standardCpe": "1",
+            "haServicePlan": "basic",
+            "haServiceVendor": "versa",
+            "haServiceTransport": "ctl",
+            "haSecurityPkg": "1",
+            "haCpe": "1",
+            "tier1Support": "1"
+            },
+            {
+            "variantId": "corporateplan",
+            "sponsorId": "spons001",
+            "name": "CORPORATE BASIC",
+            "discriptionHtml": "Software-defined wide area networking (AIRTEL) is the next evolution of private networking",
+            "displayImage" : "",
+            "sku": "SDWANPREMIUM",
+            "displayPosition": 3,
+            "servicePlan": "premium",
+            "serviceVendor": "versa",
+            "serviceTransport": "customer",
+            "securityPkg": "1",
+            "standardCpe": "1",
+            "haServicePlan": "",
+            "haServiceVendor": "",
+            "haServiceTransport": "",
+            "haSecurityPkg": "0",
+            "haCpe": "0",
+            "tier1Support": "1"
+            },
+            {
+            "variantId": "studentha",
+            "sponsorId": "spons001",
+            "name": "STUDENTPACK",
+            "discriptionHtml": "Software-defined wide area networking (AIRTEL) is the next evolution of private networking",
+            "displayImage" : "",
+            "sku": "STUDENTPACK",
+            "displayPosition": 1,
+            "servicePlan": "premium",
+            "serviceVendor": "versa",
+            "serviceTransport": "customer",
+            "securityPkg": "1",
+            "standardCpe": "1",
+            "haServicePlan": "premium",
+            "haServiceVendor": "versa",
+            "haServiceTransport": "ctl",
+            "haSecurityPkg": "1",
+            "haCpe": "1",
+            "tier1Support": "1"
+            },
+            {
+            "variantId": "dummyplan",
+            "sponsorId": "spons001",
+            "name": "DUMMY PLAN",
+            "discriptionHtml": "Software-defined wide area networking (AIRTEL) is the next evolution of private networking",
+            "displayImage" : "",
+            "sku": "DUMMY PLAN",
+            "displayPosition": 1,
+            "servicePlan": "premium",
+            "serviceVendor": "versa",
+            "serviceTransport": "customer",
+            "securityPkg": "1",
+            "standardCpe": "1",
+            "haServicePlan": "premium",
+            "haServiceVendor": "versa",
+            "haServiceTransport": "ctl",
+            "haSecurityPkg": "1",
+            "haCpe": "1",
+            "tier1Support": "1"
+            }
+            ]
+            });
+        </script>
+    </changeSet>
+</mongoChangeLog>

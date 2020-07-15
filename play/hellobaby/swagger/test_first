@@ -1,0 +1,75 @@
+{
+  "swagger": "2.0",
+  "basePath": "/testadministration_services/test_registrations/v1.0.1",
+  "tags": [
+    {
+      "name": "test_registrations"
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/about": {
+      "get": {
+        "summary": "About page",
+        "produces": [
+          "text/plain; charset=utf-8",
+          "application/json"
+        ],
+        "description": "The is the About page of the Test Administration API",
+        "tags": [
+          "About"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/About"
+            }
+          },
+          "400": {
+            "$ref": "#/responses/400"
+          },
+          "401": {
+            "$ref": "#/responses/401"
+          },
+          "default": {
+            "$ref": "#/responses/default"
+          }
+        }
+      }
+    },
+    "/first": {
+      "get": {
+        "summary": "first page",
+        "produces": [
+          "text/plain; charset=utf-8",
+          "application/json"
+        ],
+        "description": "The is the fist page of the Test Administration API",
+        "tags": [
+          "About"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/first"
+            }
+          },
+          "400": {
+            "$ref": "#/responses/400"
+          },
+          "401": {
+            "$ref": "#/responses/401"
+          },
+          "default": {
+            "$ref": "#/responses/default"
+          }
+        }
+      }
+    }
+  }
+}

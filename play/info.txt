@@ -1,0 +1,3 @@
+Play’s Model-View-Controller (MVC) architecture familiar and easy to learn.
+
+Play’s lightweight, stateless, web-friendly architecture uses Akka and Akka Streams under the covers to provide predictable and minimal resource consumption (CPU, memory, threads).

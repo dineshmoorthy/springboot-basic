@@ -1,0 +1,14 @@
+evan@vbox ~> scalac test.scala
+evan@vbox ~> scala test
+
+Java vs Scala
+-------------
+- scala is 20% faster than java
+Scala is a statically typed programming language which incorporates functional and object-oriented programming. 
+It primarily targets the JVM (Java Virtual Machine) platform but can also be used to write software for multiple platforms. It includes native platforms using Scala-Native and JavaScript runtimes through Scala. 
+
+Features of Scala
+- Object-oriented but Scala is also a functional language.
+- It is concise, powerful language and can quickly grow according to the demand of its users.
+- Allows you to execute Java code
+- Scala is statically typed

@@ -33,7 +33,7 @@
 		<lombok.version>1.18.8</lombok.version>
 		<dagger.version>2.23.2</dagger.version>
 		<mockito-core.version>2.23.4</mockito-core.version>
-		<guava.version>27.1-jre</guava.version>
+		<guava.version>29.0-jre</guava.version>
 		<commons-lang3.version>3.9</commons-lang3.version>
 		<libphonenumber.version>8.11.3</libphonenumber.version>
 	</properties>

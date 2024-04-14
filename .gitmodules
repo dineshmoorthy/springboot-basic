@@ -1,0 +1,3 @@
+[submodule "graphql-basic"]
+	path = graphql-basic
+	url = https://github.com/dineshmoorthy/springboot-basic.git
